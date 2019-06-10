@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.subspec "Core" do |ss|
     ss.source_files = "Sources/*.swift"
     ss.dependency "RxSwift", "~> 5.0"
-    ss.dependency "Alamofire", "~> 5"
+    ss.dependency "Alamofire", "~> 5.0.0-beta.6"
     ss.framework = "Foundation"
   end
 
